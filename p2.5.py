@@ -1,6 +1,6 @@
 
 print('\nWelcome to P2.4/2.5 two integer evaluator')
-print('\nPlease selected 2 integer values')
+print('\nPlease select 2 integer values')
 firstvalue = int(input('Enter first integer: '))
 secondvalue = int(input('Enter second integer: ')) 
 print()
