@@ -14,4 +14,5 @@ while (True):
     # if not valid print invalid
     print('Invalid Input')
 
+# get rid of ,
 print(val.replace(',',''))

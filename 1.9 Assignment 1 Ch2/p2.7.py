@@ -47,6 +47,7 @@ def runall():
 # Switch just in case the user wants a specific output    
 def switch(val):
     match val:
+        # checks vak and compares like a dict.; runs the function that matches
         case 'circumference':
             return circum()
         case 'volume':
@@ -58,6 +59,7 @@ def switch(val):
         case 'all':
             return runall()
         case _:
+            # base case/invalid inputs ask for a retry
             print('Invalid input, please try again')
             choice = input('What would you like? \nEnter AREA, CIRCUMFERENCE, VOLUME, SURFACE AREA, or ALL: ').lower()
             switch(choice)
