@@ -1,7 +1,5 @@
 
 
-from webbrowser import get
-
 
 print('\nWelcome to P2.10 Car selector')
 
