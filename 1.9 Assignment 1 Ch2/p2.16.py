@@ -1,3 +1,4 @@
+# Works on python 3.10 and above!
 
 print('\nWelcome to P2.16 Input to spaced sequence')
 
