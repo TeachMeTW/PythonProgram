@@ -3,7 +3,7 @@
 print('\nWelcome to P2.7 radius into area, circumpherence, volume, and surface area')
 
 # constant pi
-pi = 3.14159265359
+PI = 3.14159265359
 
 
 while(True):
@@ -23,19 +23,19 @@ while(True):
 
 def area():
     # print string area, add space, area is pi radius squared
-    print('Area:         %10.2f' % (pi*(radius**2))+' meters')
+    print('Area:         %10.2f' % (PI*(radius**2))+' meters')
     
 def circum():
     # print string circumference, add space, circumference is 2pi*radius
-    print('Circumference:%10.2f' % (2*pi*radius)+' meters')
+    print('Circumference:%10.2f' % (2*PI*radius)+' meters')
     
 def vol():
     # print string volume, add space, volume is 4/3pi*radius cubed
-    print('Volume:       %10.2f' % ((4/3)*pi*(radius**3))+' meters')
+    print('Volume:       %10.2f' % ((4/3)*PI*(radius**3))+' meters')
     
 def sarea():
     # print string volume, add space, surface area is 4pi*radius squared
-    print('Surface Area: %10.2f' % (4*pi*(radius**2))+' meters')
+    print('Surface Area: %10.2f' % (4*PI*(radius**2))+' meters')
 
 # run all functions    
 def runall():
