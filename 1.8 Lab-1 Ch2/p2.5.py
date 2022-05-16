@@ -9,6 +9,8 @@ firstValue = int(input('Enter first integer: '))
 
 # Get second integer and assign it to second value
 secondValue = int(input('Enter second integer: ')) 
+
+# space
 print()
 
 # What are the desired outputs?
@@ -30,7 +32,7 @@ def avg():
 
 def dist():
     # print the string distance, add a space, find the absolute value of the difference
-    print('Distance:   %10d' % abs(diff()))
+    print('Distance:   %10d' % abs(firstValue-secondValue))
 
 def big():
     # print the string maximum,  add a space, compare to find which one is bigger

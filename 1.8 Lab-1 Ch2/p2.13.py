@@ -8,11 +8,11 @@ while (True):
     
     # After getting rid of the comma, check if number falls within the range
     # Make sure the comma is in the 2 index
-    if ((10000 < int(val.replace(',','')) < 99000) and (',' in val[2])) :
+    if ((10000 < int(val.replace(',','')) < 99000) and (',' in val[2]) and (len(val)) == 6) :
         #if it is valid then break out of loop and print the value
+        # get rid of ,
+        print(int(val.replace(',','')))
         break
     # if not valid print invalid
     print('Invalid Input')
 
-# get rid of ,
-print(int(val.replace(',','')))
