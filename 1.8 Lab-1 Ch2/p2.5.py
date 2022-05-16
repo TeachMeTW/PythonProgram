@@ -16,31 +16,31 @@ print()
 # What are the desired outputs?
 def sum():
     # print the string sum, add a space, print first + second
-    print('Sum:        %10d' % (firstValue+secondValue))
+    print('Sum:        %10.2f' % (firstValue+secondValue))
     
 def diff():
     # print the string difference, add a space, print first - second
-    print('Difference: %10d' % (firstValue-secondValue))
+    print('Difference: %10.2f' % (firstValue-secondValue))
     
 def prod():
     # print the string product, add a space, multiply first and second
-    print('Product:    %10d' % (firstValue*secondValue))
+    print('Product:    %10.2f' % (firstValue*secondValue))
 
 def avg():
     # print the string product, add a space, add first and second, divide by two then print
-    print('Average:       %10.2f' % ((firstValue+secondValue)/2))
+    print('Average:    %10.2f' % ((firstValue+secondValue)/2))
 
 def dist():
     # print the string distance, add a space, find the absolute value of the difference
-    print('Distance:   %10d' % abs(firstValue-secondValue))
+    print('Distance:   %10.2f' % abs(firstValue-secondValue))
 
 def big():
     # print the string maximum,  add a space, compare to find which one is bigger
-    print('Maximum:    %10d' % max(firstValue,secondValue))
+    print('Maximum:    %10.2f' % max(firstValue,secondValue))
     
 def small():
     # print the string maximum, add a space, compare to find which one is smaller
-    print('Minimum:    %10d' % min(firstValue,secondValue))
+    print('Minimum:    %10.2f' % min(firstValue,secondValue))
     
 # Running all functions
 def runall():
