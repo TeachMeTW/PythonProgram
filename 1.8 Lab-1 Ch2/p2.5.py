@@ -5,40 +5,40 @@ print('\nPlease select 2 integer values')
 # What are the inputs?
 
 # Get first integer and assign it to first value
-firstvalue = int(input('Enter first integer: '))
+firstValue = int(input('Enter first integer: '))
 
 # Get second integer and assign it to second value
-secondvalue = int(input('Enter second integer: ')) 
+secondValue = int(input('Enter second integer: ')) 
 print()
 
 # What are the desired outputs?
 def sum():
     # print the string sum, add a space, print first + second
-    print('Sum:        %10d' % (firstvalue+secondvalue))
+    print('Sum:        %10d' % (firstValue+secondValue))
     
 def diff():
     # print the string difference, add a space, print first - second
-    print('Difference: %10d' % (firstvalue-secondvalue))
+    print('Difference: %10d' % (firstValue-secondValue))
     
 def prod():
     # print the string product, add a space, multiply first and second
-    print('Product:    %10d' % (firstvalue*secondvalue))
+    print('Product:    %10d' % (firstValue*secondValue))
 
 def avg():
     # print the string product, add a space, add first and second, divide by two then print
-    print('Average:       %10.2f' % ((firstvalue+secondvalue)/2))
+    print('Average:       %10.2f' % ((firstValue+secondValue)/2))
 
 def dist():
     # print the string distance, add a space, find the absolute value of the difference
-    print('Distance:   %10d' % abs(firstvalue-secondvalue))
+    print('Distance:   %10d' % abs(diff()))
 
 def big():
     # print the string maximum,  add a space, compare to find which one is bigger
-    print('Maximum:    %10d' % max(firstvalue,secondvalue))
+    print('Maximum:    %10d' % max(firstValue,secondValue))
     
 def small():
     # print the string maximum, add a space, compare to find which one is smaller
-    print('Minimum:    %10d' % min(firstvalue,secondvalue))
+    print('Minimum:    %10d' % min(firstValue,secondValue))
     
 # Running all functions
 def runall():
