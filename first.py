@@ -1,19 +1,30 @@
-"""
-Zach Bar
-CS 3C
-Practice Program 39, Ch 3
-Input: PIN number
-Processing: check if true and break if wrong 3x
-Output: accept/decline
-"""
-numoftries=0
-while (numoftries < 3): #makes sure process doesn't get repeated after third attempt
-    pin = input("Please input your PIN number.")
-    if (pin == "1234"):
-        print("PIN is correct. Please proceed with your transaction")
-        break #makes sure process doesnt get repeated after correct PIN input
-    else:
-        print("PIN is incorrect")
-        numoftries= numoftries+1
-if (numoftries == 3):
-    print("You are locked from accessing this ATM. Have a good day!")
+## Gets smallest of 3 nums
+# @param 3 floats
+# @return 1 float min
+def smallest(x,y,z):
+    nList = [x,y,z]
+    return min(nList)
+
+
+## Gets avg of 3 num
+# @param 3 floats
+# @return 1 float avg
+
+def average(x,y,z):
+    return ((x+y+z)/3)
+    
+def main():
+    while True:
+        try:
+            x = float(input("Enter x value: "))
+            y = float(input("Enter y value: "))
+            z = float(input("Enter z value: "))
+            print('\n')
+            print('Smallest: ' + str(smallest(x,y,z)))
+            print('Average: '+ '{:.2f}'.format(average(x,y,z)))
+            print('\n')
+            break
+        except ValueError:
+            print('Enter valid number')
+
+main()
