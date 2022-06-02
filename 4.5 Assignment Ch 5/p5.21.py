@@ -28,6 +28,7 @@ def romanDigit2(n):
     romanHundreds = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]
     romanTens = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]
     romanOnes = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
+    # Using what the book says
     return (romanThousands[n // 1000] + romanHundreds[n % 1000 // 100] + romanTens[n % 100 // 10] + romanOnes[n % 10])
     
 def main():
@@ -46,16 +47,10 @@ main()
 
 ############################
 #   EX;
-#   input: 69420
+#   input: 2022
 #   
-#   romanThousands[6420 // 1000] -> romanThousands[6] -> 
+#   romanThousands[2022 // 1000] -> romanThousands[2] -> MM
+#   romanHundreds[2022 % 1000 // 100] -> romanHundreds[0] -> " "
+#   romanTens[2022 % 100 // 10] -> romanTens[2] -> XX
+#   romanOnes[2022 % 10] -> romanOnes[2] -> II
 #
-#
-#
-#
-#
-#
-#
-#
-#
-    
