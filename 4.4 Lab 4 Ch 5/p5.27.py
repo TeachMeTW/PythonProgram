@@ -25,6 +25,7 @@ numDict = [
 def romanToInt():
     # get user input, change to upper just in case
     userIn = str(input("\nEnter roman numerals: ")).upper()
+    
     stringIndex = 0
     tupleIndex = 0
     result = 0
