@@ -1,6 +1,7 @@
 
 
-# Dict
+# Dict to match num to barcode
+# doesn't need to be sorted
 digitBar = {
     1:':::||',
     2:'::|:|',

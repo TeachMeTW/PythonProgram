@@ -75,10 +75,10 @@ main()
 
 
 
-#######################################
+##################################################################################################
 #   Ex: MMXXII -> 2022 expected
-#   1st: Current character matching -> M | Found yes -> 1000
-#   2nd: Current character matching -> M | Found yes -> 1000
+#   1st: Current character matching -> M | index string 0 | Found yes -> 1000
+#   2nd: Current character matching -> M | index string 1 | Found yes -> 1000
 #   3rd: Curent char match -> CM | index string 2 | tuple index 0 | found no
 #   4th: Current char match -> D | index string 2 | tuple index 1 | found no
 #   5th: Current char match -> CD | index string 2 | tuple index 2 | found no

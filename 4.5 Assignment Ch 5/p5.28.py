@@ -28,3 +28,14 @@ def main():
             print('Enter valid input')
     
 main()
+
+##########################
+#   EX; user in = 12000, child = 5
+#   12000 < 20000
+#   
+#   2000 since lowest bracket
+#   return 2000*child
+#   = 10,000
+#
+#
+#
